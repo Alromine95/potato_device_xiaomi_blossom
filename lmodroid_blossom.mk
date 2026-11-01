@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common.mk)
 
 
 # always nuke audiofx
